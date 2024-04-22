@@ -1710,3 +1710,16 @@ responsive
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para tabletas */
+  .owl-menu-item {
+      width: 50%; /* Haz que los elementos del carrusel tengan la mitad del ancho en tabletas */
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  /* Estilos específicos para tabletas con una resolución de alrededor de 900px */
+  .owl-menu-item {
+      width: 33.33%; /* Divida los elementos del carrusel en tercios en tabletas de 900px */
+  }
+}
